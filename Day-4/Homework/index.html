@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Weekly Schedule</title>
+
+    <style>
+
+        
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px;
+        }
+
+        /* Table Borders */
+        th,
+        td {
+            border: 2px solid black;
+            padding: 11px;
+            text-align: center;
+        }
+
+        /* Header Background Color */
+        th {
+            background-color: lightblue;
+        }
+
+        
+        tfoot {
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Weekly Schedule</h1>
+
+    
+    <table>
+
+        
+        <thead>
+
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+        </thead>
+
+        
+        <tbody>
+
+            <tr>
+                <td>9 am - 10 am</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td rowspan="2">JavaScript</td>
+                <td>React</td>
+                <td>Revision</td>
+            </tr>
+
+            <tr>
+                <td>10 am - 11 am</td>
+                <td>Practice</td>
+                <td>Bootstrap</td>
+                <td>Node.js</td>
+                <td>Projects</td>
+            </tr>
+
+            <tr>
+                <td>11 am - 12 pm</td>
+                <td colspan="2">Mini Projects</td>
+                <td>GitHub</td>
+                <td>Database</td>
+                <td>Testing</td>
+            </tr>
+
+        </tbody>
+
+        
+        <tfoot>
+
+            <tr>
+                <td colspan="6">
+                    Weekly Study Schedule
+                </td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
