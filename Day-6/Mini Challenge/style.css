@@ -1,0 +1,24 @@
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+ color:#1abc9c; 
+ text-align: center;  
+}
+
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+a{
+text-decoration: none;
+color: blue;
+}
