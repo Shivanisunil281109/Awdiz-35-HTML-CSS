@@ -1,0 +1,24 @@
+
+
+body{
+    font-family: Arial;
+    background-color:whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn{
+    background:linear-gradient(to right,blue,purple);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family:verdana;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:linear-gradient(to right,purple,blue);
+transform:scale(1.1);
+}
