@@ -1,0 +1,25 @@
+body  {
+   
+    font-family: Arial;
+background-color: whitesmoke;
+ padding: 40px;
+
+}
+
+.pricing {
+    display: flex;
+    gap: 20px;
+align-items: stretch;
+  justify-content: center;
+
+}
+  
+.card{
+    flex:1;
+      padding: 30px;
+       background-color:#eeeeee;
+border-radius: 10px;
+ text-align: center;
+font-size: 22px;
+font-weight: bold;
+}

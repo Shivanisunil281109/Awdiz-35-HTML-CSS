@@ -1,0 +1,21 @@
+
+.container{
+     display: flex;
+       gap: 20px;
+background-color: whitesmoke;
+padding: 30px;
+height: 300px;
+}
+
+.box{
+     flex-grow: 1; 
+      background-color: lightblue;
+ padding: 30px;
+ border-radius: 10px;
+ text-align: center;
+ font-size: 22px;
+}
+
+.box2{
+     align-self: center;
+}
