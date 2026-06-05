@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 50px;
+
+    background:white;
+
+}
+.logo{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+}
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+}
+.nav-links a{
+
+    text-decoration:none;
+
+    color:black;
+
+    font-size:18px;
+
+}
+.search-box input{
+
+    padding:12px;
+
+    width:250px;
+
+    border:1px solid gray;
+
+    border-radius:30px;
+
+}
+.icons{
+
+    display:flex;
+
+    gap:20px;
+
+    font-size:25px;
+
+}
+.menu-icon{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+}
+@media(max-width:992px){
+
+    .navbar{
+
+        padding:15px 25px;
+
+    }
+
+    .nav-links{
+
+        gap:20px;
+
+    }
+@media(max-width:768px){
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .search-box{
+
+        display:none;
+
+    }
+
+    .menu-icon{
+
+        display:block;
+
+    }
+
+}
+}
+@media(max-width:480px){
+
+    .logo{
+
+        font-size:30px;
+
+    }
+
+    .icons{
+
+        gap:10px;
+
+        font-size:20px;
+
+    }
+
+}
+
+    .icons{
+
+        gap:10px;
+
+        font-size:20px;
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+
+    <div class="logo">
+        AJIO
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">BEAUTY</a></li>
+        <li><a href="#">HOME</a></li>
+
+    </ul>
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        placeholder="Search AJIO">
+
+    </div>
+
+    <div class="icons">
+
+        <span>♡</span>
+        <span>🛒</span>
+
+    </div>
+
+     <div class="menu-icon">
+        ☰
+    </div>
+
+</nav>
+</body>
+</html>

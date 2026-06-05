@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+  <link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+/>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      #screen {
+        width: 100%;
+        
+        border: 4px solid blue;
+      }
+
+      #navbodyCnt {
+        width: 78%;
+        /* border: 5px solid red; */
+        height: 100%;
+        margin: auto;
+      }
+      #topNavCnt {
+        width: 100%;
+        /* border: 2px solid green;
+         */
+        border-bottom: 2px solid gray;
+      }
+
+      #locationNavCnt {
+        width: 100%;
+        /* border:2px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+      }
+      .titlestyle {
+        padding: 10px 40px;
+        background-color: lightblue;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        display:flex;
+        gap:5px;
+width: 115px;
+
+        justify-content:center;
+    align-items:center;
+      }
+.FlipkartTitlestyle img{
+    width:20px;
+    height:auto;
+    
+}
+
+
+
+
+.TravelTitlestyle img{
+    width:20px;
+}
+
+      .FlipkartTitlestyle {
+        background-color: #f8e023;
+      }
+      .TravelTitlestyle {
+        background-color: #f0f0f0;
+      }
+
+
+
+
+      #leftlocationNavCnt {
+        width: 23%;
+        /* border:2px solid red; */
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #rightlocationNavCnt {
+        width: 30%;
+        /* border:2px solid red; */
+        align-self: center;
+      }
+      #rightlocationNavCnt p {
+        font-weight: bold;
+        font-size: 17px;
+      }
+
+      .clickBluestyle {
+        color: blue;
+      }
+
+#rightlocationNavCnt p{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+
+
+
+
+      #SearchNavCnt {
+        width: 100%;
+        /* border: 2px solid purple; */
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px;
+      }
+
+      #leftSearchNavCnt {
+        width: 74%;
+        border: 2px solid #74c0ff;
+        height: 30px;
+        border-radius: 10px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+      }
+      #rightSearchNavCnt {
+        width: 24%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+
+      #rightSearchNavCnt > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+#rightSearchNavCnt > div img{
+    width: 20px;
+    height: 18px;
+}
+
+
+
+
+      #leftSearchNavCnt span {
+        margin: 0 14px;
+      }
+      #leftSearchNavCnt input {
+        width: 99%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 14px;
+      }
+
+      #bottomNavCnt{
+        width: 100%;
+        border-bottom:2px solid grey ;
+        display: flex;
+        justify-content: space-between;
+    padding: 12px 0;
+      }
+      #bottomNavCnt > div{
+        /* border: 2px solid black; */
+         padding:10px ;
+         text-align: center;
+      }
+
+      #bottomNavCnt > div p{
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+
+   
+
+
+  #offerCnt{
+    display:flex;
+    
+    justify-content: space-between;
+    gap:15px;
+    /* border:2px solid orange; */
+    margin: 10px 0;
+    width:100%;
+}
+
+.offerImageCnt{
+    width: 30%;
+    height: 200px;
+     
+}
+
+.imgstyle{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.commomCnt{
+  width: 100%;
+    margin: 20px 0;
+    /* border:2px solid red; */
+  background:linear-gradient(to bottom, #F7D54A, #F3CF4A);
+  min-height: 200px;
+  border-radius: 20px;
+padding-bottom: 20px;
+    
+  
+    
+}
+
+.commomCnt h3{
+  padding: 10px;  
+  margin: 10px 10px;
+color: white;
+
+}
+.productGridCnt{
+    background-color:white;
+    width:96%;
+    margin:10px auto;
+    border-radius:20px;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.productGridItem{
+    width:25%;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.imagstyle{
+    width:100%;
+    height:250px;
+    border-radius:20px;
+    display:block;
+}
+
+.brandSection{
+    /* border:2px solid pink; */
+    width:auto;
+    margin:10px 0;
+    
+  
+}
+
+.brandContainer{
+    /* background-color:lightblue; */
+    padding:10px;
+     display:flex;
+     flex-wrap: wrap; 
+     gap: 20px;
+      
+    
+  
+}
+.brandCardstyle{
+  width:24%;
+    height:250px;
+    border-radius:20px;
+   
+}
+.productContainer{
+  padding:20px;
+    width:100%;
+    height:auto;
+    /* border:2px solid green; */
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+      gap:15px;
+      margin: auto;
+
+    
+   
+}
+
+
+.productCard{
+      width:30%;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+
+}
+.productImage{
+  width:97%;
+    height:260px;
+   
+}
+.productName{
+    font-size:16px;
+    color:#212121;
+    margin:10px 0;
+}
+.brandName{
+    font-weight:bold;
+}
+.oldPrice{
+    color:#878787;
+    font-size:15px;
+    margin-right:10px;
+}
+.newPrice{
+    color:#212121;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.bankOffer{
+    color:blue;
+    font-size:16px;
+     margin-top:5px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="screen">
+      <div id="navbodyCnt">
+        <div id="topNavCnt">
+          <div id="locationNavCnt">
+            <div id="leftlocationNavCnt">
+              <div class="titlestyle FlipkartTitlestyle"> <img src=" https://rukminim1.flixcart.com/fk-p-flap/52/44/image/d2ecfddf891a3922.png?q=90"><i>Flipkart</i></div>
+
+
+              <div class="titlestyle TravelTitlestyle"> <img src="https://rukminim1.flixcart.com/fk-p-flap/58/44/image/7ab4040af860941d.png?q=90"> <i>Travel</i></div>
+
+            </div>
+
+            <div id="rightlocationNavCnt">
+              <p>
+
+                <span class="material-symbols-outlined">
+location_on
+</span>
+                Location not set
+                <span class="clickBluestyle"> Select delivery location  ></span>
+              </p>
+            </div>
+          </div>
+          <div id="SearchNavCnt">
+            <div id="leftSearchNavCnt">
+              <span class="material-symbols-outlined"> search </span>
+              <input
+                type="text"
+                placeholder="Search for products,Brands and More"
+              />
+            </div>
+
+            <div id="rightSearchNavCnt">
+              <div><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg" >Login </div>
+              <div><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3
+                JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxL
+                jUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0
+                
+                iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmF
+                ja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDE
+                yNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZ
+                hbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZW
+                N0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0P
+                SJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K" >More</div>
+              <div><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg" >Cart</div>
+            </div>
+          </div>
+        </div>
+
+<div id="bottomNavCnt">
+    
+<div><img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg ">
+  <p> For you </p>   </div>
+
+
+  <div> <img src="  https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg     ">    <p>   Fashion</p>  </div>
+
+  
+  <div> <img src="    https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg   ">    <p> Mobiles  </p>  </div>
+
+  
+  <div> <img src=" https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg      ">    <p>Beauty   </p>  </div>
+  
+  <div> <img src="     https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg  ">    <p> Electronics  </p>  </div>
+  
+  <div> <img src="    https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg   ">    <p>  Home </p>  </div>
+  
+  <div> <img src="  https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg     ">    <p>  appliances </p>  </div>
+  
+  <div> <img src="   https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg    ">    <p> Toys, Baby...</Baby>  </p>  </div>
+  
+  <div> <img src="  https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg     ">    <p> Food & Health  </p>  </div>
+  
+  <div> <img src="    https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-acc.svg  ">    <p>   Auto Accessories</p>  </div>
+  
+  <div> <img src="   https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg    ">    <p> Wheelers  </p>  </div>
+
+   <div> <img src="   https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg    ">    <p>  Sports & Fitness </p>  </div>
+
+    <div> <img src="   https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/books.svg    ">    <p>  Books & Music </p>  </div>
+
+     <div> <img src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg       ">    <p>  Furniture </p>  </div>
+      
+
+
+
+</div>
+
+
+<div id="offerCnt">
+  
+<div id="offerImageCnt">   <span> <img class="imgstyle" src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/9d82c3174ac251c1.jpg?q=60"> </span> </div>
+<div id="offerImageCnt">   <span>  <img class="imgstyle" src ="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/052ab1594c9c31a3.jpg?q=60"></span></div>
+<div id="offerImageCnt">    <span> <img class="imgstyle" src="https://rukminim2.flixcart.com/fk-p-flap/3200/1560/image/9d3cef70a445ad4c.png?q=60"></span></div>
+
+      </div>
+
+
+<div class="commomCnt"> 
+  <h3><b>People also viewed</b></h3>
+  <div class="productGridCnt"> 
+    <div class="productGridItem"> <img class="imagstyle"  src="https://rukminim2.flixcart.com/image/280/374/xif0q/shirt/c/s/w/xxl-mhs-501-green-metronaut-original-imahfmgcjktsmjqy.jpeg?q=90">
+    <p>  Breezy,Checked &more</p> 
+   <h6>Under ₹ 299</h6>
+</div>
+
+ <div class="productGridItem">
+            <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/ethnic-set/q/o/3/xxl-molli-morepeach-klosia-original-imahkugszhknfhsy.jpeg?q=90">
+            <p>Shop now</p>
+            <h6>From ₹ 299</h6>
+        </div>
+
+   
+
+         <div class="productGridItem">
+            <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/slipper-flip-flop/p/q/k/7-ab-slid-6065-bersache-green-original-imahc5d2y2h4fwhw.jpeg?q=90">
+            <p>Shoes</p>
+            <h6>From ₹ 129</h6>
+        </div>
+  
+
+         <div class="productGridItem">
+           <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/shoe-rack/6/q/a/36-45-0-3-plasticblack-shoe-rack-with-cover-plastic-double-5-original-imah88yy5epbznzq.jpeg?q=90">
+           
+            <p>Best Deal Ever</p>
+            <h6>From ₹ 299</h6>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="commomCnt" style="background:linear-gradient(to bottom, #09076666, #104665);"> 
+  <h3><b>People also viewed</b></h3>
+  <div class="productGridCnt"> 
+    <div class="productGridItem"> <img class="imagstyle"  src="https://rukminim2.flixcart.com/image/280/374/xif0q/shirt/c/s/w/xxl-mhs-501-green-metronaut-original-imahfmgcjktsmjqy.jpeg?q=90">
+    <p>  Breezy,Checked &more</p> 
+   <h6>Under ₹ 299</h6>
+</div>
+
+ <div class="productGridItem">
+            <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/ethnic-set/q/o/3/xxl-molli-morepeach-klosia-original-imahkugszhknfhsy.jpeg?q=90">
+            <p>Shop now</p>
+            <h6>From ₹ 299</h6>
+        </div>
+
+   
+
+         <div class="productGridItem">
+            <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/slipper-flip-flop/p/q/k/7-ab-slid-6065-bersache-green-original-imahc5d2y2h4fwhw.jpeg?q=90">
+            <p>Shoes</p>
+            <h6>From ₹ 129</h6>
+        </div>
+  
+
+         <div class="productGridItem">
+            <img class="imagstyle" src="https://rukminim2.flixcart.com/image/280/374/xif0q/shoe-rack/6/q/a/36-45-0-3-plasticblack-shoe-rack-with-cover-plastic-double-5-original-imah88yy5epbznzq.jpeg?q=90">
+            <p>Best Deal Ever</p>
+            <h6>From ₹ 299</h6>
+        </div>
+
+
+</div>
+</div>
+
+       <div class="brandSection">
+
+    <h2>Brands in Spotlight</h2>
+
+    <div class="brandContainer">
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/700/940/image/1f06224f74b7dde6.png?q=60">
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/700/940/image/d185718b4d7138a8.png?q=60">
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/700/940/image/26d76da693841ffd.png?q=60">
+
+
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/220/300/image/ddc0ae7e5224f08d.png?q=60">
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/220/300/image/1ead153d42c24d2f.png?q=60">
+
+        <img class="brandCardstyle"
+        src="https://rukminim2.flixcart.com/fk-p-flap/220/300/image/a26cfa02660775d7.png?q=60">
+
+
+    </div>
+
+</div>
+    
+
+
+  <div class="productContainer">
+
+    <div class="productCard">  <img class="productImage" src="https://rukminim2.flixcart.com/image/800/1060/xif0q/mobile/g/6/w/nord-ce6-nord-ce6-oneplus-original-imahn7zqdzyp6ynf.jpeg?q=60">
+
+    <p class="productName">
+       <b class="brandName"> OnePlus </b>Nord CE6 5G (Fresh Blue ,128 GB)
+    </p>
+
+    <h3>   <strike class="oldPrice">₹40,999</strike>    <b class="newPrice">  ₹ 32,770 </b></h3>
+    <h2 class="bankOffer"> ₹31,131 With Bank Offer</h2>
+  </div>
+
+    <div class="productCard"> <img  class="productImage" src="https://rukminim2.flixcart.com/image/800/1060/xif0q/headphone/e/y/3/wireless-earbuds-b5-neckband-with-48hrs-playback-clear-sound-original-imahjx9zhth3ycum.jpeg?q=60">
+    <p> <b> bAot </b>Wireless Earbuds B5 Neckband with 48hrs Playback & Clear Sound</p>
+    <h3> <strike class="oldPrice">₹1,999</strike>    <b class="newPrice">  ₹ 500 </b></h3>
+    <h2 class="bankOffer"> ₹475 With Bank Offer</h2>
+  </div>
+
+    <div class="productCard"><img class="productImage" src="https://rukminim2.flixcart.com/image/800/1060/xif0q/headphone/q/i/z/ultrabuds-with-latest-bt-v6-0-40hr-playtime-13mm-dynamic-driver-original-imahhggdxrpct424.jpeg?q=60 " >
+    <p> <b> PTROX Ultrabuds</b> with Latest BT v6.0 & 40hrs Playtime,13mm....</p>
+  <h3> <strike class="oldPrice">₹1,999</strike>    <b class="newPrice">  ₹500 </b></h3>
+    <h2 class="bankOffer"> ₹425 With Bank Offer</h2>
+  </div>
+
+
+
+    
+  
+  <div class="productCard"><img class="productImage" src="https://rukminim2.flixcart.com/image/240/320/xif0q/battery-charger/b/a/b/100w-rapid-supervooc-charger-combo-type-usb-to-c-cable-smart-ic-original-imahgcrxceyeygqm.jpeg?q=60">
+  <p> SB 100 W VOOC 9 A Charger for Mobile With Detachable.... </p>
+  <h3> <strike class="oldPrice">₹999</strike>    <b class="newPrice">  ₹170 </b></h3>
+  <h2 class="bankOffer"> ₹445  With Bank Offer</h2>
+  </div>
+ 
+ 
+ 
+ 
+ 
+ 
+  <div class="productCard"><img class="productImage"src="https://rukminim2.flixcart.com/image/800/1060/xif0q/mobile/p/e/2/-original-imahfjsfgu7vjkvw.jpeg?q=60">
+  <p> <b>Google</b> Pixel 10 (Forst,256 GB) </p>
+  <h3> <strike class="oldPrice">₹79,999</strike>    <b class="newPrice">  ₹74,999 </b></h3>
+  <h2 class="bankOffer"> ₹70,999 With Bank Offer</h2>
+  </div>
+  
+  
+  <div class="productCard"><img class="productImage" src="https://rukminim2.flixcart.com/image/800/1060/xif0q/cases-covers/back-cover/2/t/q/back-case-cover-compatible-for-iphone-13-spidey-face-mask-case-original-imahmszz3m6cagju.jpeg?q=60">
+  <p><b>DARKFIT</b> Back Cover for Apple iPhone 13 </p>
+  <h3> <strike class="oldPrice">₹799</strike>    <b class="newPrice">  ₹242 </b></h3>
+  <h2 class="bankOffer"> ₹192 With Bank Offer</h2>
+  </div>
+  
+
+</div> 
+
+
+
+
+    </div>
+  </body>
+</html>
